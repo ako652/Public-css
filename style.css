@@ -1,0 +1,159 @@
+.navbar{
+    background-color:rgb(32, 2, 68);
+    width: 100%;
+    height: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   color: white;
+
+}
+
+#nav{
+    list-style: none;
+    display: flex;
+    column-gap: 100px;
+   align-items: center;
+}
+body{
+    margin: 0px;
+    width: 70%;
+    height: auto;
+    margin: 0 auto 2rem;
+}
+.first_section{
+    width: 100%;
+    height: 500px;
+    background-image: url('./screenshots/Chocolate_Cupcakes.jpg') ;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+     background-size: cover;
+}
+.internal-section h1{
+    margin-bottom: 100px;
+    font-weight: 900;
+    font-size: xx-large;
+    color: white;
+  
+
+}
+
+button{
+    border: 2px solid white;
+    background-color: rgb(218, 26, 36);
+    width: 50%;
+    height: 30px;
+}
+#middle-grid{
+    width: 50%;
+    height: 350px;
+    background-image: url('/screenshots/snow-ice-cream-6.jpg');
+
+}
+#first-grid{
+    display: flex;
+}
+#right-grid{
+    width: 25%;
+    height: 350px;
+    background-color:rgb(32, 2, 68);
+   display: grid;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+#right-grid{
+    width: 25%;
+    height: 350px;
+    background-color:rgb(32, 2, 68);
+   display: grid;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+#left-grid{
+    width: 25%;
+    height: 350px;
+    background-color: rgba(245, 13, 79, 0.938);
+   display: grid;
+   align-items: center;
+   text-align: center;
+   color: white;
+}
+#second-grid{
+    display: flex;
+}
+#grid-s-left{
+    width: 50%;
+    height: 250px;
+    background-color: rgba(238, 18, 135, 0.938);
+    display: grid;
+   align-items: center;
+   text-align: center;
+}
+#empty-grid{
+width: 25%;
+height: 250px;
+background-image: url('./screenshots/images.jpg');
+background-size: cover;
+}
+#grid-s-last{
+width: 25%;
+height: 250px;
+background-color: rgb(82, 52, 84);
+color:white;
+display: grid;
+align-items: center;
+text-align: center;
+
+}
+.last-second-grid{
+    width: 25%;
+    height: 250px;
+    background-color:rgb(32, 2, 68);
+    display: grid;
+   align-items: center;
+   text-align: center;
+}
+#last-grid{
+    display: flex;
+}
+.last-empty-grid{
+    width: 25%;
+   height: 250px;
+   background-image: url('./screenshots/images.jpg');
+   background-size: cover;
+}
+.last-empty{
+    width: 50%;
+    height: 250px;
+    background-image: url('./screenshots/easy-pink-cupcakes.jpg');
+    background-size: cover;
+}
+#footer{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 0px;
+}
+h3{
+    color:rgb(32, 2, 68); 
+}
+.footer-part{
+    margin: 20px;
+    border: 2px solid  rgb(32, 2, 68);
+}
+.container-two{
+    margin: 20px;
+    border: 2px solid  rgb(32, 2, 68);
+}
+.container-one{
+    margin: 0 20px 20px 20px;
+    border: 2px solid  rgb(32, 2, 68);
+}
